@@ -1,8 +1,5 @@
 #include <stdio.h>
-/**
- * trying the code
- * returning 0
- * /
+
 int main(void)
 {
 
