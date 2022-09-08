@@ -1,9 +1,9 @@
-#incude <stdio.h>
+#include <stdio.h>
 /**
  * main - entry point
  *
- * return: return 0 when executed correctly
- * */
+ * Return: 0 after printing the function
+ */
 int main(void)
 {
 printf("size of char: %d byte(s)\n", sizeof(char));
