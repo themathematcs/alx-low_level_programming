@@ -1,4 +1,4 @@
-#include <stdlibs.h>
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 /*main block*/
