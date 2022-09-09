@@ -1,11 +1,8 @@
 #include <stdio.h>
-/**
- * main - prints the alphabet in lower case
- * return:0 as succes
- */
+
 int main(void)
 {
-char ch;
+char ch = 'a';
 while (ch <= 'z')
 {
 if (ch != 'e' && ch != 'q')
