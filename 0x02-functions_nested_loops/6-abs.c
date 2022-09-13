@@ -1,4 +1,4 @@
-#include "6-abs.c"
+#include "main.h"
 /**
  * _abs ->return absolute value of a number
  * @n: parameter
