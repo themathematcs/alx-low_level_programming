@@ -27,7 +27,7 @@ _putchar(j + '0');
 }
 else if (j >= 10)
 {
-_putchar('i');
+_putchar(i);
 _putchar((j / 10) + '0');
 _putchar((j % 10) + '0');
 }
