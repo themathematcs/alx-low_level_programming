@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * void ->  returns a value 0 if succesful
  * main -> computes and prints the sum of all the multiples
  * of 3 || 5 below 1024
  * Return:0
  */
-int void(main)
+
+int main(void)
 {
 unsigned long int sum3, sum5, sum;
 int i;
