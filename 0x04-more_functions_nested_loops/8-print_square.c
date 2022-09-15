@@ -4,7 +4,7 @@
  * @size: argument
  * Return:0
  */
-void print_square(int size);
+void print_square(int size)
 {
 int i, j;
 if (size <= 0)
