@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * more_number -> check the code
+ * more_numbers -> printing more numbers
  * main: main block
  * Return: Always 0.
  */
