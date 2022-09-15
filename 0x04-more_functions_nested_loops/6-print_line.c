@@ -5,20 +5,12 @@
  * Return: 0
  */
 void print_line(int n)
-}
-	int i;
+{
+int x;
+if (n <= 0)
+_putchar('\n')
+for (x = 0; x <= n; x++)
+_putchar('_');
 
-	if (n <= 0)
-	{
-		_putchar('\n');
-	}
-	else
-	{
-
-		for (i = 1; i <= n; i++)
-		{
-			_putchar('_');
-		}
-		_putchar('\n');
-	}
+_putchar('_');
 }
