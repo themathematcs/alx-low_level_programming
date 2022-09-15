@@ -3,7 +3,7 @@
  * print_diagonal -> prints character \ diagonaly
  * @n: character argument
  */
-void print_diagonal(int n);
+void print_diagonal(int n) 
 {
 int i, j;
 if (n <= 0)
