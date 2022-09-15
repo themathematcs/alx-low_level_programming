@@ -1,14 +1,16 @@
 #include "main.h"
 /**
- * main - check the code
- *
+ * more_number -> check the code
+ * main: main block
  * Return: Always 0.
  */
 void more_numbers(void)
 {
-int i;
+int i, j;
 for (i = 0; i <= 10; i++)
 {
-for (i = 0; j < 10; j
+for (j = 0; j < 10; j++)
+_putchar(j);
 }
+_putchar('\n');
 }
