@@ -5,7 +5,7 @@
  * @b: character argument to be swaped by a
  *
  */
-void swap_int(*a, int *b)
+void swap_int(int *a, int *b)
 {
 int c;
 
