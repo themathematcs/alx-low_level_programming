@@ -5,7 +5,7 @@
  * Return: s
  *
  */
-char *string_toupper(char *m)
+char *string_toupper(char *s)
 {
 int i;
 for (i = 0; m[i] != '\0'; i++)
