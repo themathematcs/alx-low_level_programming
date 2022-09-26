@@ -14,6 +14,7 @@ f = 0;
 
 for (j = 0; accept[j] != '\0'; j++)
 {
+flag = 0;
 if (s[i] == accept[j])
 {
 f++;
