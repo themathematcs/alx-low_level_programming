@@ -12,7 +12,7 @@ int _sqrt_recursion(int n)
 {
 if (n < 0)
 	return (-1);
-return (nutural_numbers(n, 0));
+return (natural_numbers(n, 0));
 }
 /**
  * natural_numbers -> gets all natural numbers while recursing
@@ -23,7 +23,7 @@ return (nutural_numbers(n, 0));
  *
  *
  */
-int natural_numbers(int n, int i);
+int natural_numbers(int n, int i)
 {
 if (i * i > n)
 	return (-1);
