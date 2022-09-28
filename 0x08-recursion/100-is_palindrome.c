@@ -1,7 +1,7 @@
 #include "main.h"
 
 int palindrome(char *s, int i, int len);
-int strlen(char *s);
+int strleni(char *s);
 
 /**
  * is_palindrome -> checks for empty str
@@ -14,7 +14,7 @@ int is_palindrome(char *s)
 {
 if (*s == 0)
 	return (1);
-return (palindrome(s, 0, strlen(s)));
+return (palindrome(s, 0, strleni(s)));
 }
 /**
  * strlen - length of a string
@@ -22,11 +22,11 @@ return (palindrome(s, 0, strlen(s)));
  *
  * Return: str length
  */
-int strlen(char *s)
+int strleni(char *s)
 {
 	if (*s == '\0')
 		return (0);
-	return (1 + strlen(s + 1));
+	return (1 + strleni(s + 1));
 }
 /**
  * palindrome -> looks for palindrome in string
