@@ -17,7 +17,7 @@ if (*s == 0)
 return (palindrome(s, 0, strleni(s)));
 }
 /**
- * strlen - length of a string
+ * strleni - length of a string
  * @s: string to calculatethe length
  *
  * Return: str length
