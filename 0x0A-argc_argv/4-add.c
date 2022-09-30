@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main: adds positive numbers
+ * main - adds positive numbers from given argumens
  * @argc: number of args
  * @argv: array of args
  * Return: 0 on succes 1 when not
