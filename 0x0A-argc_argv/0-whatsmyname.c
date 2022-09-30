@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * main -> prints name of the program
- * @_attribute_((unused): argument
+ * @_attribute_((unused)): hundles error of unused
  * @argv: array of args
  * @argc: number of args
  *
