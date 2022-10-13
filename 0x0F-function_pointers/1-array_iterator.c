@@ -1,6 +1,6 @@
 #include "function_pointers.h"
-#include <stdio.h>
 #include <stdlib.h>
+
 /**
  * array_iterator -> iterrates through its parameters
  * @array: array to itarate over
