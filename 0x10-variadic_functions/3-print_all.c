@@ -36,16 +36,16 @@ void print_all(const char * const format, ...)
 				v = va_arg(ap, char*);
 				if (v == NULL)
 					v = "(nil)";
-					printf("%s", v);
-					break;
+				printf("%s", v);
+				break;
 			default:
 				c = 1;
 				break;
 		}
 		if (c == 0 && format[i + 1] != '\0')
 			printf(", ");
-			i++;
-			}
-		va_end(ap);
-		printf("\n");
+		i++;
+	}
+	va_end(ap);
+	printf("\n");
 }
